@@ -1,1 +1,12 @@
+tkinter
 phonenumbers
+
+
+# This file lists the required packages for the Python project.
+
+# Note: Ensure you have Python and pip installed on your system.
+# The packages listed here are essential for the functionality of the project.
+
+# Required packages:
+# - tkinter: For creating the GUI.
+# - phonenumbers: For parsing, formatting, and validating phone numbers.
