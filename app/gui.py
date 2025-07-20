@@ -13,7 +13,7 @@ def get_number_info(number: str):
 
         location = geocoder.description_for_number(parsed, "en")
         region = geocoder.region_code_for_number(parsed)
-        service_provider = carrier.name_for_number(parsed, "en")
+        service_provider = carrier.name_for_number(parsed, "en") 
         timezones = timezone.time_zones_for_number(parsed)
 
         info = {
